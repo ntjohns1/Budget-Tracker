@@ -58,6 +58,7 @@ function checkDatabase() {
   };
   getAll.onerror = function (e) {
     console.log(`Woops! ${e.target.errorCode}`);
+  }
 }
 
 request.onsuccess = function (e) {
