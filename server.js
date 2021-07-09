@@ -24,7 +24,7 @@ mongoose.connect(
     useCreateIndex: true,
     useFindAndModify: false
   }
-);
+)
 .then(() => {
   console.log('Connected to MongoDB Atlas');
   // routes
